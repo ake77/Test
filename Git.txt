@@ -12,3 +12,5 @@ Git
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
     git log -p ดูส่วนที่แก้ไข
     git checkout . ใช้ย้อนไฟล์ที่แก้ไปแล้วแต่ยังไม่ได้commit
+    git blame ...  ใช้ดูว่ามีใครที่เข้ามาเปลี่ยนแปลง อะไร และ เมื่อใด ใน my_file
+    git reflog   ใช้แสดง Log ของการเปลี่ยนแปลงใน HEAD ของ Local Repository มันเหมาะสำหรับการค้นหางานที่สูญหายไป
