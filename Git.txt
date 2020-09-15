@@ -1,0 +1,4 @@
+Git 
+    git clean   เป็นคำสั่งที่ใช้แสดงและลบ Source Code ที่อยู่ในสถานะ Untracked ออกจาก Working Directory
+    git remote set-url origin ...   ใช้ในเปลี่ยน remote repository
+    git add :/  ใช้ตอนอยู่ใน sub-folder แล้วต้องการ add ทุกไฟล์รวมถึงที่อยู่ข้างนอกโฟลเดอร์ที่เราอยู่ แต่ยังอยู่ใน repo เดียวกัน เข้าสู่ staged status
