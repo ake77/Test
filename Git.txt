@@ -4,11 +4,12 @@ Git
     git add :/  ใช้ตอนอยู่ใน sub-folder แล้วต้องการ add ทุกไฟล์รวมถึงที่อยู่ข้างนอกโฟลเดอร์ที่เราอยู่ แต่ยังอยู่ใน repo เดียวกัน เข้าสู่ staged status
     git reset   ใช้เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
     git branch ใช้เช็ค branch
-        git branch  ... ใช้สร้าง branch ใหม่
+    git branch  ... ใช้สร้าง branch ใหม่
+    git branch -d ...   ใช้ลบbranch
     git checkout ...    ใช้เปลี่ยน branch
     git merge ... เป็นการรวม branch กำหนดชื่อ branch
     git diff ใช้ดูการเปลี่ยนแปลงที่สถานะ modified
-        git diff --staged   ใช้ดูแล้ว add ไปที่สถานะ staged
+    git diff --staged   ใช้ดูแล้ว add ไปที่สถานะ staged
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
     git log -p ดูส่วนที่แก้ไข
     git checkout . ใช้ย้อนไฟล์ที่แก้ไปแล้วแต่ยังไม่ได้commit
