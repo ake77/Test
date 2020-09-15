@@ -11,3 +11,4 @@ Git
         git diff --staged   ใช้ดูแล้ว add ไปที่สถานะ staged
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
     git log -p ดูส่วนที่แก้ไข
+    git checkout . ใช้ย้อนไฟล์ที่แก้ไปแล้วแต่ยังไม่ได้commit
