@@ -8,7 +8,6 @@ Git
     git checkout ...    ใช้เปลี่ยน branch
     git merge ... เป็นการรวม branch กำหนดชื่อ branch
     git diff ใช้ดูการเปลี่ยนแปลงที่สถานะ modified
-        git diff --staged   ดูแล้ว add ไปที่สถานะ staged
+        git diff --staged   ใช้ดูแล้ว add ไปที่สถานะ staged
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
-    
-    
+    git log -p ดูส่วนที่แก้ไข
