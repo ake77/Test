@@ -9,4 +9,6 @@ Git
     git merge ... เป็นการรวม branch กำหนดชื่อ branch
     git diff ใช้ดูการเปลี่ยนแปลงที่สถานะ modified
         git diff --staged   ดูแล้ว add ไปที่สถานะ staged
+    git push origin master --force  ถ้าpushธรรมดาไม่ได้
+    
     
