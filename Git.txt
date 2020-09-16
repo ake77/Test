@@ -1,22 +1,23 @@
 Git 
     git remote set-url origin ...   ใช้ในเปลี่ยน remote repository
-    git add :/  ใช้ตอนอยู่ใน sub-folder แล้วต้องการ add ทุกไฟล์รวมถึงที่อยู่ข้างนอกโฟลเดอร์ที่เราอยู่ แต่ยังอยู่ใน repo เดียวกัน เข้าสู่ staged status
-    
+    git add :/          ใช้ตอนอยู่ใน sub-folder แล้วต้องการ add ทุกไฟล์รวมถึงที่อยู่ข้างนอกโฟลเดอร์ที่เราอยู่ แต่ยังอยู่ใน repo เดียวกัน เข้าสู่ staged status
+    git add '*.txt'     add ไฟล์ทั้งหมดที่นามสกุล .txt เป็นต้น
+
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
 
-    git branch ใช้เช็ค branch
-    git branch  ... ใช้สร้าง branch ใหม่
+    git branch          ใช้เช็ค branch
+    git branch  ...     ใช้สร้าง branch ใหม่
     git branch -d ...   ใช้ลบbranch
     git checkout ...    ใช้เปลี่ยน branch
-    git merge ... เป็นการรวม branch กำหนดชื่อ branch
+    git merge ...       เป็นการรวม branch กำหนดชื่อ branch
 
-    git blame ...  ใช้ดูว่ามีใครที่เข้ามาเปลี่ยนแปลง อะไร และ เมื่อใด ใน my_file
-    git reflog   ใช้แสดง Log ของการเปลี่ยนแปลงใน HEAD ของ Local Repository มันเหมาะสำหรับการค้นหางานที่สูญหายไป
-    git diff ใช้ดูการเปลี่ยนแปลงที่สถานะ modified
+    git blame ...       ใช้ดูว่ามีใครที่เข้ามาเปลี่ยนแปลง อะไร และ เมื่อใด ใน my_file
+    git reflog          ใช้แสดง Log ของการเปลี่ยนแปลงใน HEAD ของ Local Repository มันเหมาะสำหรับการค้นหางานที่สูญหายไป
+    git diff            ใช้ดูการเปลี่ยนแปลงที่สถานะ modified
     git diff --staged   ใช้ดูแล้ว add ไปที่สถานะ staged    
-    git log -p ดูส่วนที่แก้ไข
+    git log -p          ดูส่วนที่แก้ไข
 
-    git clean   เป็นคำสั่งที่ใช้แสดงและลบ Source Code ที่อยู่ในสถานะ Untracked ออกจาก Working Directory
-    git reset   ใช้เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
-    git checkout . ใช้ย้อนไฟล์ที่แก้ไปแล้วแต่ยังไม่ได้commit
+    git clean           เป็นคำสั่งที่ใช้แสดงและลบ Source Code ที่อยู่ในสถานะ Untracked ออกจาก Working Directory
+    git reset           ใช้เอาไฟล์ที่ add ไปแล้วออกมาจาก staged ให้กลับมาเป็น modified
+    git checkout .      ใช้ย้อนไฟล์ที่แก้ไปแล้วแต่ยังไม่ได้commit
     
