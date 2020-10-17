@@ -2,6 +2,7 @@ Git
     git remote set-url origin ...   ใช้ในเปลี่ยน remote repository
     git add :/          ใช้ตอนอยู่ใน sub-folder แล้วต้องการ add ทุกไฟล์รวมถึงที่อยู่ข้างนอกโฟลเดอร์ที่เราอยู่ แต่ยังอยู่ใน repo เดียวกัน เข้าสู่ staged status
     git add '*.txt'     add ไฟล์ทั้งหมดที่นามสกุล .txt เป็นต้น
+    git add filename
 
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
 
