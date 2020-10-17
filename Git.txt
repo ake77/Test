@@ -5,6 +5,7 @@ Git
     git add filename
 
     git push origin master --force  ถ้าpushธรรมดาไม่ได้
+    git push -f origin master
 
     git branch                          ใช้เช็ค branch
     git branch  ...                     ใช้สร้าง branch ใหม่
