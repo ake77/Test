@@ -21,6 +21,7 @@ Git
     git add filename
     git checkout <commit_hash>          ย้อนหาcommitในอดีต
 
+    git push origin ...			        ใช้push branch
     git push -u origin master
     git push origin master --force      ถ้าpushธรรมดาไม่ได้
     git push -f origin master
