@@ -29,6 +29,7 @@ Git
     git branch                          ใช้เช็ค branch
     git branch  ...                     ใช้สร้าง branch ใหม่
     git branch -D ...                   ใช้ลบbranch
+    git push origin --delete ...	สั่งลบ branch บน repo
     git checkout ...                    ใช้เปลี่ยน branch
     git checkout -b ...                 แบบสั้นๆได้ เป็นการสร้าง branch ใหม่และ checkout ให้เลย เป็นการรวมสองคำสั่งเป็นคำสั่งเดียว นั่นเอง
     git merge ...                       เป็นการรวม branch กำหนดชื่อ branch
